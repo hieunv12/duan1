@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "933306302867",
+    "firebase_url": "https://quanlynhahang-app123.firebaseio.com",
+    "project_id": "quanlynhahang-app123",
+    "storage_bucket": "quanlynhahang-app123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933306302867:android:a78c6b4a0560b5270a6866",
+        "android_client_info": {
+          "package_name": "com.example.duan1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933306302867-bp725bh80gofii6h1v92v6i9c7vj04mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwJHCSZpcKr_4wIAl1iCfqJdB6r65LmQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933306302867-bp725bh80gofii6h1v92v6i9c7vj04mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933306302867:android:5feb66a270021e480a6866",
+        "android_client_info": {
+          "package_name": "com.example.duan1.quanly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933306302867-bp725bh80gofii6h1v92v6i9c7vj04mo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwJHCSZpcKr_4wIAl1iCfqJdB6r65LmQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933306302867-bp725bh80gofii6h1v92v6i9c7vj04mo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a1"
+    android:orientation="vertical"
+    tools:context=".quanly.nhandon.NhanDonActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn"
+                android:onClick="NhanBan"
+                android:orientation="vertical"
+                android:text="Nhận Bàn"
+                android:textSize="24sp"
+                android:textStyle="bold">
+
+
+            </Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Nhận Menu"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:background="@drawable/custom_btn"
+                android:onClick="NhanMenu"
+                android:orientation="vertical">
+
+
+               </Button>
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>

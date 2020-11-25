@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a7"
+    tools:context=".khachhang.datmenu.MenuChonFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/custom_buttor"
+       >
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rclDSMenuChon"
+           android:dividerHeight="15.0sp"
+           android:layout_width="match_parent"
+           android:layout_height="620dp" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Tổng Tiền:"
+               android:textColor="#f30"
+               android:textSize="25dp" />
+
+           <TextView
+               android:id="@+id/tvTongTienMenu"
+               android:layout_width="wrap_content"
+               android:textColor="#ffffff"
+               android:layout_height="wrap_content"
+               android:textSize="25dp" />
+       </LinearLayout>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="10dp"
+           android:background="@drawable/custom_btn"
+           android:text="Thanh toán" />
+   </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreenActivity.OnboardingActivity">
+
+    <TextView
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_alignParentEnd="true"
+        android:text="Skip"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/vp1"
+        android:layout_above="@+id/relatilayout1"
+        android:layout_below="@+id/tv_skip"
+        android:layout_height="match_parent" >
+
+
+    </androidx.viewpager.widget.ViewPager>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:id="@+id/relatilayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <me.relex.circleindicator.CircleIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/crli"
+            android:layout_centerVertical="true"
+            app:ci_drawable="@drawable/big_circle_red"/>
+
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:id="@+id/next1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@android:drawable/ic_media_ff" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

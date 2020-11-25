@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a1"
+    tools:context=".quanly.ChiTietBanDatActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:padding="30dp"
+
+        android:background="@drawable/custom_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvtentk_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvname_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvsdt_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvngaydat_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/tvthoigian_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvtenban_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/tvtiencoc_ct_ban"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+</LinearLayout>

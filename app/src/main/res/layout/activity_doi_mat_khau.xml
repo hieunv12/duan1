@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a5"
+    tools:context=".dangnhap.DoiMatKhauActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_buttor"
+        android:padding="35dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tenTK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="100dp"
+            android:text="TextView"
+            android:textColor="#FF0000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="#EAE6E6"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            android:id="@+id/edPass_ĐMK"
+            app:passwordToggleEnabled="true"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Mật Khẩu:" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:textColorHint="#EAE6E6"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:errorEnabled="true"
+            app:passwordToggleEnabled="true"
+            android:id="@+id/edPassLai_ĐMK"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:inputType="textPassword"
+                android:hint="Nhập Lại Mật Khẩu" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/custom_btn"
+            android:layout_width="match_parent"
+            android:onClick="LuuMK"
+            android:layout_height="wrap_content"
+            android:text="Lưu" />
+    </LinearLayout>
+</LinearLayout>

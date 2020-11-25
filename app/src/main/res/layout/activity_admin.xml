@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a1"
+    tools:context=".AdminActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:onClick="NhanDon"
+                android:background="@drawable/custom_buttor"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+
+                    android:layout_marginTop="20dp"
+
+                    app:srcCompat="@drawable/don_hang" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Nhận Đơn"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:onClick="QuanLy"
+                android:background="@drawable/custom_buttor"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/quanly" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Quản Lý"
+                    android:textColor="#ffffff"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:onClick="TaiKhoanKhachHang"
+                android:background="@drawable/custom_buttor"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/tk" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Tài Khoản Khách Hàng"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="20dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:onClick="ThongKe"
+                android:background="@drawable/custom_buttor"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+
+                    android:layout_marginTop="20dp"
+                    app:srcCompat="@drawable/thongke" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Thống Kê"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

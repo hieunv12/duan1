@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    BackgroundColor="#90F6F2F2"
+    cardCornerRadius="6dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+       <ImageView
+           android:id="@+id/imghinhAnhBan"
+           android:scaleType="fitXY"
+           android:background="@mipmap/ic_launcher_round"
+           android:layout_width="70dp"
+           android:layout_height="75dp"/>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="80dp"
+           android:id="@+id/linnas"
+           android:layout_toRightOf="@id/imghinhAnhBan"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:hint="Iphone 11"
+               android:textSize="16dp"
+               android:textStyle="bold"
+               android:textColor="#00AC47"
+               android:id="@+id/tvtenBan"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:hint="11000000 vnd"
+               android:textSize="15dp"
+               android:textColor="#676767"
+               android:id="@+id/tvtrangThai"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+
+       <ImageView
+           android:id="@+id/addicon"
+           android:layout_width="39dp"
+           android:layout_height="67dp"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:layout_marginRight="10dp"
+           android:layout_marginLeft="100dp"
+           android:src="@drawable/ban" />
+
+   </LinearLayout>
+</androidx.cardview.widget.CardView>
